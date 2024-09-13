@@ -52,7 +52,11 @@ Use generator particles and their status flags and pdgId to compute Z(W) 4-momen
 ### Computation of visible generator Z/W/Higgs 4-momentum
 
 Sum up 4-vectors of generator particles that satisfy the following criteria
+
+```
 (fromHardProcessFinalState && (isMuon || isElectron)) || (isDirectHardProcessTauDecayProduct && !isNeutrino)
+```
+
 
 ### Computation of hadronic jet multiplicity (njets) for recoil corrector
 
